@@ -17,4 +17,6 @@ public class TitleService {
     public List<TitleView> getAllseasons() {
         return titleRepository.fetchTitleDetails();
     }
+    
+
 }

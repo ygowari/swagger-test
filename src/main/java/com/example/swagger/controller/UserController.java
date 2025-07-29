@@ -41,9 +41,10 @@ public class UserController {
 	private TitleService titleService;
 
 	@GetMapping("/SeasonsList")
-	public List<TitleView> getTitleDetails() {
-		return titleService.getTitleDetails();
+	public List<TitleView> getAllseasons() {
+		return titleService.getAllseasons();
 	}
+	
 
 	@PersistenceContext
 	private EntityManager entityManager;

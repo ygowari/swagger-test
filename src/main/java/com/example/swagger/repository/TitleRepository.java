@@ -32,3 +32,6 @@ public interface TitleRepository extends JpaRepository<Title, String> {
 			""", nativeQuery = true)
 	List<TitleView> fetchTitleDetails();
 }
+
+
+
